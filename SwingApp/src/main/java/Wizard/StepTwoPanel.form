@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jsonTreeLabel1" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="302" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="nodePanel" max="32767" attributes="0"/>
+                      <Component id="nodeDetailsLabel" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jsonTreeLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nodeDetailsLabel" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="nodePanel" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jsonTreeLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="JSON Tree"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTree" name="jTree1">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="nodeDetailsLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Node Data"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="nodePanel">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="nodeRowLabel" max="32767" attributes="0"/>
+                          <Component id="colField" alignment="1" max="32767" attributes="0"/>
+                          <Component id="nameField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="valueField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="typeField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="minField" alignment="0" max="32767" attributes="0"/>
+                          <Component id="maxField" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="isReq" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="247" max="32767" attributes="0"/>
+                              <Component id="updateBtn" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane2" alignment="0" pref="387" max="32767" attributes="0"/>
+                          <Component id="nodeColLabel" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="nodeNameLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nodeValueLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nodetypeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nodeMinLengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nodeMaxLengthLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="descriptionLabel" max="32767" attributes="0"/>
+                          <Component id="rowField" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nodeNameLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nameField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nodeValueLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="valueField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nodetypeLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="typeField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nodeMinLengthLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="minField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nodeMaxLengthLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="maxField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nodeColLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="colField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="nodeRowLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="rowField" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="descriptionLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="isReq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="updateBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="nodeNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Node Name:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="nameField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="typeField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nodetypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Type:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="minField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nodeMinLengthLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Min Length:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="maxField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nodeMaxLengthLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Max Length:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="nodeValueLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Node Value:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="valueField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="descriptionLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Description:"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="jTextArea1">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JCheckBox" name="isReq">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Required"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JToggleButton" name="updateBtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateBtnActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="rowField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nodeRowLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Rows:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="colField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="nodeColLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Columns:"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
